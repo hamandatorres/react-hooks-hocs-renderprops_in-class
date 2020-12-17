@@ -3,7 +3,7 @@ import BadButton from './BadButton'
 import Square from './Square'
 import '../style.css'
 
-const Hocs = props => {
+const Hocs = (props) => {
   return (
     <section className="advanced-react-section">
       <h1>
@@ -17,7 +17,9 @@ const Hocs = props => {
         </a>
       </h1>
       <BadButton />
-      <BadButton darkMode />
+      <BadButton darkMode={true} />
+      <Square />
+      <Square darkMode isAdmin />
       <Square />
     </section>
   )
