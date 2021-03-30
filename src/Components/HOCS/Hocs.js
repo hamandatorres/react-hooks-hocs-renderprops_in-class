@@ -19,7 +19,7 @@ const Hocs = (props) => {
       <BadButton />
       <BadButton darkMode={true} />
       <Square />
-      <Square darkMode isAdmin />
+      <Square darkMode />
       <Square />
     </section>
   )

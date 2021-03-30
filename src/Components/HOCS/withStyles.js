@@ -31,6 +31,4 @@ const withStyles = (WrappedComponent) => {
   }
 }
 
-withStyles.displayName = 'withStyles'
-
 export default withStyles
