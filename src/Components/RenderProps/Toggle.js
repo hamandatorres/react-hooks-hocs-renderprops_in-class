@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import withStyles from '../HOCS/withStyles'
 
 const Toggle = (props) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,4 +11,4 @@ const Toggle = (props) => {
   )
 }
 
-export default withStyles(Toggle)
+export default Toggle;
